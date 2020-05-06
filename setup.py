@@ -27,7 +27,6 @@ setup(
     keywords="airflow plugin prometheus exporter metrics",
     url="https://github.com/epoch8/airflow-exporter",
     packages=["airflow_exporter"],
-    setup_requires=['setuptools_scm'],
     install_requires=[
         "apache-airflow>=1.10.3",
         "prometheus_client>=0.4.2",
